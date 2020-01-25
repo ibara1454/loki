@@ -1,0 +1,11 @@
+# Cache
+__pycache__
+
+# Virtual-env execution environment
+.venv/
+
+# Editor settings
+.vscode/
+
+# Pipenv environment variables
+.env

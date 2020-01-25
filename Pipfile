@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[scripts]
+start = "python -m loki.app"
+test = "python -m unittest discover tests"
+
+[dev-packages]
+pycodestyle = "==2.5.0"
+
+[packages]
+celery = "==4.4.0"
+redis = "~=3.3.11"
+youtube-dl = "==2019.12.25"
+firebase-admin = "~=3.2.1"
+
+[requires]
+python_version = "3.7"
